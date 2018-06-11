@@ -13,7 +13,7 @@ Las urls no están redirigidas entre si, por lo que existen 4 tipos de url:
 
 + 1.- http://localhost:8000/api/users/register/
 + 2.- http://localhost:8000/api/users/login/
-+3.- http://localhost:8000/api/users/list/
++ 3.- http://localhost:8000/api/users/list/
 + 4.- http://localhost:8000/api/users/edit/id ---> id será de la tarea a cambiar status.
 
 
