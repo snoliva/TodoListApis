@@ -6,8 +6,15 @@ Son 4 APIS diferentes:
 + 3.- Agregar tarea - listar tareas
 + 4.- Actualizar estado de una tarea
 
-Todo se realizó bajo Django rest-framework, existe un model para agregar las tareas. 
-Se aplicó TokenAuthentication.
+Todo se realizó bajo Django2.0 rest-framework, existe un model para agregar las tareas. Se aplicó TokenAuthentication y todo se realizó bajo entorno virtual. Además se realizó bajo python3.
+
+Para iniciar:
+```
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py runserver
+
+```
 
 Las urls no están redirigidas entre si, por lo que existen 4 tipos de url:
 
